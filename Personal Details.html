@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <link rel="stylesheet" href="Personal Details.css">
+</head>
+<body>
+    <div class="form">
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>Salutation</div>
+            <br>
+            <div>
+                <select name="none" id="none">
+                    <option value="0" selected hidden>--None--</option>
+                    <option value="Mr">Mr.</option>
+                    <option value="Ms">Ms.</option>
+                    <option value="Mrs">Mrs.</option>
+                    <option value="Dr">Dr.</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="Fname">First name:</label>
+                <input type="text" name="Fname" id="Fname">
+            </div>
+            <br>
+            <div>
+                <label for="Lname">Last name:</label>
+                <input type="text" name="Lname" id="Lname">
+            </div>
+            <br>
+            <div>
+                <span>Gender:</span>
+                <input type="radio" name="Male" id="Male" value="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Female" id="Female" value="Female">
+                <label for="Female">Female</label>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="DoB">Date of birth:</label>
+                <input type=""name="date" id="DoB">
+            </div>
+            <br>
+            <div>
+                <label for="address">Address:</label>
+                <br>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </form> 
+    </div>
+</body>
+</html>
